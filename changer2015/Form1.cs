@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using Spire.Pdf;
+using Spire.Doc;
 
 namespace changer2015
 {
@@ -24,20 +25,23 @@ namespace changer2015
         private void preview(string source)
         {
             asli = source;
-            label2.Visible = false;
-            webBrowser1.Visible = true;
-            webBrowser1.Navigate(source + "#view=Fit");
-
             string ekstensi = Path.GetExtension(source).ToLower();
+
             if (ekstensi == ".pdf")
             {
                 comboBox1.Text = "PDF";
                 comboBox2.Text = "Word";
+                label2.Visible = false;
+                webBrowser1.Visible = true;
+                webBrowser1.Navigate(source + "#view=Fit");
             }
             else if (ekstensi == ".doc" || ekstensi == ".docx")
             {
                 comboBox1.Text = "Word";
                 comboBox2.Text = "PDF";
+                webBrowser1.Visible = false;
+                label2.Text = "File Word siap di-convert!";
+                label2.Visible = true;
             }
 
             button4.Visible = false;
@@ -101,10 +105,19 @@ namespace changer2015
         {
             SaveFileDialog save = new SaveFileDialog();
             save.Title = "Simpan file convert";
-            save.Filter = "Word Document (*.docx)|*.docx";
-            save.DefaultExt = "docx";
 
-            save.FileName = Path.GetFileNameWithoutExtension(asli) + "_converted.docx";
+            if (comboBox2.Text == "Word")
+            {
+                save.Filter = "Word Document (*.docx)|*.docx";
+                save.DefaultExt = "docx";
+                save.FileName = Path.GetFileNameWithoutExtension(asli) + "_converted.docx";
+            }
+            else
+            {
+                save.Filter = "Adobe Acrobat Document (*.pdf)|*.pdf";
+                save.DefaultExt = "pdf";
+                save.FileName = Path.GetFileNameWithoutExtension(asli) + "_converted.pdf";
+            }
 
             if (save.ShowDialog() == DialogResult.OK)
             {
@@ -140,10 +153,21 @@ namespace changer2015
 
             try
             {
-                PdfDocument doc = new PdfDocument();
-                doc.LoadFromFile(asli);
-                hasil = Path.Combine(Path.GetTempPath(), "hasil_convert_" + DateTime.Now.Ticks + ".docx");
-                doc.SaveToFile(hasil, FileFormat.DOCX);
+                if (comboBox1.Text == "PDF")
+                {
+                    Spire.Pdf.PdfDocument docpdf = new Spire.Pdf.PdfDocument();
+                    docpdf.LoadFromFile(asli);
+                    hasil = Path.Combine(Path.GetTempPath(), "hasil_convert_" + DateTime.Now.Ticks + ".docx");
+                    docpdf.SaveToFile(hasil, Spire.Pdf.FileFormat.DOCX);
+                }
+                else if (comboBox1.Text == "Word")
+                {
+                    Spire.Doc.Document docword = new Spire.Doc.Document();
+                    docword.LoadFromFile(asli);
+                    hasil = Path.Combine(Path.GetTempPath(), "hasil_convert_" + DateTime.Now.Ticks + ".pdf");
+                    docword.SaveToFile(hasil, Spire.Doc.FileFormat.PDF);
+                }
+
                 MessageBox.Show("File berhasil di-convert!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 button3.Text = "Selesai";
                 button4.Visible = true;

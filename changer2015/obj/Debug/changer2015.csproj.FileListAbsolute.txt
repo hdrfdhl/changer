@@ -15,3 +15,17 @@ D:\pbp2\changer2015\changer2015\obj\Debug\changer2015.pp.resources
 D:\pbp2\changer2015\changer2015\bin\Debug\Spire.Pdf.dll
 D:\pbp2\changer2015\changer2015\bin\Debug\Microsoft.mshtml.dll
 D:\pbp2\changer2015\changer2015\bin\Debug\Spire.Pdf.xml
+D:\pbp2\changer2015\changer2015\bin\Debug\HarfBuzzSharp.dll
+D:\pbp2\changer2015\changer2015\bin\Debug\Spire.Doc.dll
+D:\pbp2\changer2015\changer2015\bin\Debug\Spire.XLS.dll
+D:\pbp2\changer2015\changer2015\bin\Debug\System.Buffers.dll
+D:\pbp2\changer2015\changer2015\bin\Debug\System.Memory.dll
+D:\pbp2\changer2015\changer2015\bin\Debug\System.Numerics.Vectors.dll
+D:\pbp2\changer2015\changer2015\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\pbp2\changer2015\changer2015\bin\Debug\HarfBuzzSharp.pdb
+D:\pbp2\changer2015\changer2015\bin\Debug\Spire.Doc.xml
+D:\pbp2\changer2015\changer2015\bin\Debug\Spire.XLS.xml
+D:\pbp2\changer2015\changer2015\bin\Debug\System.Buffers.xml
+D:\pbp2\changer2015\changer2015\bin\Debug\System.Memory.xml
+D:\pbp2\changer2015\changer2015\bin\Debug\System.Numerics.Vectors.xml
+D:\pbp2\changer2015\changer2015\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
