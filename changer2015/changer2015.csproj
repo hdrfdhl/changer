@@ -82,6 +82,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="jpg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jpg.Designer.cs">
+      <DependentUpon>jpg.cs</DependentUpon>
+    </Compile>
     <Compile Include="word.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,6 +126,9 @@
     <Compile Include="pw.Designer.cs">
       <DependentUpon>pw.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="jpg.resx">
+      <DependentUpon>jpg.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="word.resx">
       <DependentUpon>word.cs</DependentUpon>
     </EmbeddedResource>
