@@ -82,6 +82,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Excel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Excel.Designer.cs">
+      <DependentUpon>Excel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gasah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gasah.Designer.cs">
+      <DependentUpon>gasah.cs</DependentUpon>
+    </Compile>
     <Compile Include="jpg.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +138,12 @@
     <Compile Include="pw.Designer.cs">
       <DependentUpon>pw.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Excel.resx">
+      <DependentUpon>Excel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gasah.resx">
+      <DependentUpon>gasah.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="jpg.resx">
       <DependentUpon>jpg.cs</DependentUpon>
     </EmbeddedResource>

@@ -32,3 +32,6 @@ D:\pbp2\changer2015\changer2015\obj\Debug\changer2015.word.resources
 C:\Users\user\Source\Repos\changer\changer2015\bin\Debug\changer2015.exe.config
 C:\Users\user\Source\Repos\changer\changer2015\obj\Debug\changer2015.exe
 C:\Users\user\Source\Repos\changer\changer2015\obj\Debug\changer2015.pdb
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\bin\Debug\changer2015.exe.config
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\obj\Debug\changer2015.exe
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\obj\Debug\changer2015.pdb
