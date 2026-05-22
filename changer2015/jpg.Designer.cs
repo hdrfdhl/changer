@@ -108,7 +108,7 @@
             this.cmbto.FormattingEnabled = true;
             this.cmbto.Items.AddRange(new object[] {
             "PDF",
-            "Word"});
+            "JPG"});
             this.cmbto.Location = new System.Drawing.Point(736, 430);
             this.cmbto.Name = "cmbto";
             this.cmbto.Size = new System.Drawing.Size(168, 24);
@@ -129,7 +129,7 @@
             this.cmbfrom.FormattingEnabled = true;
             this.cmbfrom.Items.AddRange(new object[] {
             "PDF",
-            "Word"});
+            "JPG"});
             this.cmbfrom.Location = new System.Drawing.Point(736, 288);
             this.cmbfrom.Name = "cmbfrom";
             this.cmbfrom.Size = new System.Drawing.Size(168, 24);
