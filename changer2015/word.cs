@@ -48,22 +48,12 @@ namespace changer2015
             btnconvert.Text = "Convert";
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             OpenFileDialog openfile = new OpenFileDialog();
             openfile.Title = "Pilih File";
 
-            openfile.Filter = "PDF Files (*.pdf)|*.pdf|Word Files (*.docx, *.doc)|*.docx;*.doc|Excel Files (*.xlsx, *.xls)|*.xlsx;*.xls|Semua File (*.*)|*.*";
+            openfile.Filter = "PDF Files (*.pdf)|*.pdf|Word Files (*.docx, *.doc)|*.docx;*.doc|Semua File (*.*)|*.*";
 
             if (openfile.ShowDialog() == DialogResult.OK)
             {

@@ -40,7 +40,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Bookman Old Style", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(480, 42);
+            this.label1.Location = new System.Drawing.Point(480, 56);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(389, 56);
             this.label1.TabIndex = 5;
@@ -55,6 +55,7 @@
             this.pp1.Name = "pp1";
             this.pp1.Size = new System.Drawing.Size(207, 223);
             this.pp1.TabIndex = 9;
+            this.pp1.Click += new System.EventHandler(this.pp1_Click);
             // 
             // pj1
             // 
@@ -65,6 +66,7 @@
             this.pj1.Name = "pj1";
             this.pj1.Size = new System.Drawing.Size(207, 223);
             this.pj1.TabIndex = 8;
+            this.pj1.Click += new System.EventHandler(this.pj1_Click);
             // 
             // pe1
             // 
@@ -76,6 +78,7 @@
             this.pe1.Name = "pe1";
             this.pe1.Size = new System.Drawing.Size(207, 223);
             this.pe1.TabIndex = 7;
+            this.pe1.Click += new System.EventHandler(this.pe1_Click);
             // 
             // pw1
             // 

@@ -67,7 +67,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(313, 22);
             this.textBox1.TabIndex = 1;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // btnpf
             // 
@@ -92,7 +91,6 @@
             this.panel1.TabIndex = 3;
             this.panel1.DragDrop += new System.Windows.Forms.DragEventHandler(this.panel1_DragDrop);
             this.panel1.DragEnter += new System.Windows.Forms.DragEventHandler(this.panel1_DragEnter);
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label2
             // 
@@ -117,11 +115,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Bookman Old Style", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(480, 56);
+            this.label3.Location = new System.Drawing.Point(451, 56);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(389, 56);
+            this.label3.Size = new System.Drawing.Size(446, 56);
             this.label3.TabIndex = 4;
-            this.label3.Text = "PDF CHANGER";
+            this.label3.Text = "WORD CHANGER";
             // 
             // btnback
             // 
@@ -193,6 +191,7 @@
             this.btndownload.TabIndex = 11;
             this.btndownload.Text = "Download";
             this.btndownload.UseVisualStyleBackColor = true;
+            this.btndownload.Visible = false;
             this.btndownload.Click += new System.EventHandler(this.button4_Click);
             // 
             // pictureBox1
@@ -240,7 +239,7 @@
             this.Controls.Add(this.label1);
             this.Name = "word";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "PDF to Word";
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
