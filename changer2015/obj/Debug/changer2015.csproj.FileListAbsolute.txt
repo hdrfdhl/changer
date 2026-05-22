@@ -38,3 +38,34 @@ C:\Users\HYPE AMD\Source\Repos\changer\changer2015\obj\Debug\changer2015.pdb
 D:\pbp2\changer2015\changer2015\obj\Debug\changer2015.Excel.resources
 D:\pbp2\changer2015\changer2015\obj\Debug\changer2015.gasah.resources
 D:\pbp2\changer2015\changer2015\obj\Debug\changer2015.jpg.resources
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\bin\Debug\changer2015.exe
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\bin\Debug\changer2015.pdb
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\bin\Debug\HarfBuzzSharp.dll
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\bin\Debug\Spire.Doc.dll
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\bin\Debug\Spire.Pdf.dll
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\bin\Debug\Spire.XLS.dll
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\bin\Debug\System.Buffers.dll
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\bin\Debug\System.Memory.dll
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\bin\Debug\Microsoft.mshtml.dll
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\bin\Debug\HarfBuzzSharp.pdb
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\bin\Debug\Spire.Doc.xml
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\bin\Debug\Spire.Pdf.xml
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\bin\Debug\Spire.XLS.xml
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\bin\Debug\System.Buffers.xml
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\bin\Debug\System.Memory.xml
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\obj\Debug\changer2015.csprojResolveAssemblyReference.cache
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\obj\Debug\changer2015.Excel.resources
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\obj\Debug\changer2015.gasah.resources
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\obj\Debug\changer2015.jpg.resources
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\obj\Debug\changer2015.word.resources
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\obj\Debug\changer2015.main.resources
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\obj\Debug\changer2015.pe.resources
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\obj\Debug\changer2015.pj.resources
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\obj\Debug\changer2015.pp.resources
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\obj\Debug\changer2015.Properties.Resources.resources
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\obj\Debug\changer2015.pw.resources
+C:\Users\HYPE AMD\Source\Repos\changer\changer2015\obj\Debug\changer2015.csproj.GenerateResource.Cache

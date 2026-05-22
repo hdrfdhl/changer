@@ -82,6 +82,7 @@
             this.btndownload.Text = "Download";
             this.btndownload.UseVisualStyleBackColor = true;
             this.btndownload.Visible = false;
+            this.btndownload.Click += new System.EventHandler(this.btndownload_Click);
             // 
             // btnconvert
             // 
